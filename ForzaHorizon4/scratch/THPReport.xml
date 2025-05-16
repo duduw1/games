@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report Date="2023-09-09T16:10:20Z">
+  <Profile Name="Dynamic" Result="Ultra|High|Medium|Low">
+    <TestGroup Result="Ultra|High|Medium|Low" Type="System" Score="3.620284" TotalScore="11.415773" Duration="0.007744">
+      <Tests>
+        <Test Result="Ultra|High|Medium|Low" Name="NumProcessors" Score="2.0" RawResult="12.0" Duration="0.000012" />
+        <Test Result="Ultra|High|Medium|Low" Name="SystemMemory" Score="3.347961" TextRawResult="31.91GiB" RawResult="34258075648.0" Duration="0.000025">
+          <Samples>
+            <Sample Parameter="AdjustedSystemMemorySize=31.905319 GiB (34258075648 Bytes), AcquiredSystemMemorySize=31.905319 GiB (34258075648 Bytes), Diff=0 Bytes" Duration="0.0" TextValue="31.91GiB" Value="34258075648.0" />
+          </Samples>
+        </Test>
+        <Test Result="Ultra|High|Medium|Low" Name="CPUPerformance" Score="6.067812" TextRawResult="21.24MVerts/sec" RawResult="21237340.554029" Duration="0.007704">
+          <Samples>
+            <Sample Parameter="TaskGroups: 32 TasksPerGroup: 5000 TotalVertices: 160000 RenderedVertices: 75725 AveragePos:(97.808640,147.151871,-3783.789307)" Duration="0.007534" TextValue="21.24MVerts/sec" Value="21237340.554029" />
+          </Samples>
+        </Test>
+      </Tests>
+    </TestGroup>
+    <TestGroup Result="Ultra|High|Medium|Low" Type="D3DAdapter" Score="2.280097" TotalScore="2.280097" Id="0" Description="AMD Radeon RX 6600" Duration="0.02071">
+      <Tests>
+        <Test Result="Ultra|High|Medium|Low" Name="DedicatedVideoMemory" Score="2.280097" TextRawResult="7.96GiB" RawResult="8542969856.0" Duration="0.020708" />
+      </Tests>
+    </TestGroup>
+  </Profile>
+  <SystemInformation>BuildTimeStamp:Sep 18 2018 16:04:41
+SystemInfo:
+  Structure Version: 3
+     Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+      NumProcessors: 12
+           CPUFlags: HyperThreading
+   SIMDInstructions: SSE1|SSE2|SSE3|SSE4.0|SSE4.1|SSE4.2|POPCNT|LZCNT|AVX1
+TotalPhysicalMemory: 31.905319 GiB (34258075648 Bytes)
+       Num Adapters: 1
+             Adapter#: 0
+    Structure Version: 4
+          Description: AMD Radeon RX 6600
+    Known Device Name: AMD Radeon RX 6600
+            Vendor Id: 0x00001002(4098)
+            Device Id: 0x000073ff(29695)
+            SubSys Id: 0x0e361002(238424066)
+          Revision Id: 0x000000c7(199)
+       Driver Version: 31.0.21031.1005
+         FeatureLevel: 11.0
+  ResourceBindingTier: Tier 3
+   TiledResourcesTier: Tier 3
+     ResourceHeapTier: Tier 2
+ DedicatedVideoMemory: 7.956261 GiB (8542969856 Bytes)
+DedicatedSystemMemory: 0 Bytes
+   SharedSystemMemory: 15.95266 GiB (17129037824 Bytes)
+            TeraFlops: 0.000000
+</SystemInformation>
+</Report>
